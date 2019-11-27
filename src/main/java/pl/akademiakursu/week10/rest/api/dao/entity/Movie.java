@@ -14,6 +14,14 @@ public class Movie {
     private String name;
     private Integer year;
 
+    public Movie() {
+    }
+
+    public Movie(String name, Integer year) {
+        this.name = name;
+        this.year = year;
+    }
+
     public Long getId() {
         return id;
     }

@@ -37,7 +37,6 @@ public class MovieApi {
     }
 
     @PostMapping
-    @AddMovie
     public Movie addMovie(@RequestBody Movie movie) {
         return movieService.save(movie);
     }
